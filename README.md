@@ -1,6 +1,7 @@
 OpenWrt LuCI for ShadowsocksR-libev
 ===
 （自己有添加服务器名字的强迫症）增加 服务器别名 （）
+
 用于科学上网的智能透明代理工具
 
 简介
