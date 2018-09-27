@@ -83,6 +83,7 @@ start()
 			###### shadowsocksr ######
 			cat > $SSR_CONF <<EOF
 {
+	"Alias": "$vt_Alias(optional)",
 	"server": "$vt_server_addr",
 	"server_port": $vt_server_port,
 	"local_address": "0.0.0.0",
@@ -110,7 +111,8 @@ EOF
 			;;
 		Shadowsocks)
 			cat > $SSR_CONF <<EOF
-{
+{         
+        "Alias": "$vt_Alias(optional)",
 	"server": "$vt_server_addr",
 	"server_port": $vt_server_port,
 	"local_address": "0.0.0.0",
